@@ -1,0 +1,2 @@
+@echo off
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -NoExit -Command "Checkpoint-Computer -Description "BEFOREPACK" -RestorePointType "MODIFY_SETTINGS"; " ' " -Verb RunAs}"
